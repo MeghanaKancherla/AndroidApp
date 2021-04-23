@@ -36,33 +36,33 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.d(TAG,"onStart called")
+        Log.d(TAG,"onStart is called")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.d(TAG, "onResume called")
+        Log.d(TAG, "onResume is called")
     }
 
     override fun onPause() {
         // save data - persistance
         super.onPause()
-        Log.d(TAG, "onPause called")
+        Log.d(TAG, "onPause is called")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d(TAG, "onStop called")
+        Log.d(TAG, "onStop is called")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.d(TAG, "onDestroy called")
+        Log.d(TAG, "onDestroy is called")
     }
 
     override fun onRestart() {
         super.onRestart()
-        Log.d(TAG, "onRestart called")
+        Log.d(TAG, "onRestart is called")
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
