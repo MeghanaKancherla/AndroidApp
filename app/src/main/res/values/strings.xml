@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidApp</string>
+    <string name="app_title">AndroidApplication</string>
 </resources>
